@@ -18,6 +18,10 @@ $button-color: #e91e63;
   opacity: 0.3;
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Roboto Slab", serif;
