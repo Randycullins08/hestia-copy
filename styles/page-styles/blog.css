@@ -12,6 +12,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: #e91e63;
+}
+
 p {
   opacity: 0.3;
 }

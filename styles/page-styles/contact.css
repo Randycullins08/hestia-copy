@@ -1,1 +1,230 @@
-/* No CSS *//*# sourceMappingURL=contact.css.map */
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #e91e63;
+}
+
+.nav-container {
+  height: 70px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 75% auto;
+      grid-template-columns: auto 75% auto;
+}
+
+.nav-container .logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .links-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .links-wrapper a {
+  margin: 10px;
+}
+
+.nav-container .more-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .more-container button {
+  border: none;
+  outline: none;
+  background-color: #e91e63;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+.header-container {
+  height: 40vh;
+}
+
+.page-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-content-container .page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 20%;
+          column-gap: 20%;
+}
+
+.page-content-container .page-content-wrapper .left-side-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.page-content-container .page-content-wrapper .left-side-wrapper h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.page-content-container .page-content-wrapper .left-side-wrapper .form-group {
+  padding-bottom: 7px;
+  position: relative;
+}
+
+.page-content-container .page-content-wrapper .left-side-wrapper .form-group .form-control {
+  opacity: 0.3;
+}
+
+.page-content-container .page-content-wrapper .left-side-wrapper .form-group input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 7px;
+  width: 100%;
+}
+
+.page-content-container .page-content-wrapper .left-side-wrapper .form-group textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.page-content-container .page-content-wrapper .left-side-wrapper .form-group .submit {
+  background-color: #e91e63;
+  color: white;
+  width: 30%;
+  height: 20%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.page-content-container .page-content-wrapper .right-side-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.page-content-container .page-content-wrapper .right-side-wrapper p {
+  opacity: 0.3;
+  margin: 0;
+}
+
+.page-content-container .page-content-wrapper .right-side-wrapper i {
+  color: #e91e63;
+  font-size: 2em;
+}
+
+.page-content-container .page-content-wrapper .right-side-wrapper .top {
+  margin-top: 10%;
+}
+
+.page-content-container .page-content-wrapper .right-side-wrapper .middle {
+  margin-top: 10%;
+}
+
+.page-content-container .page-content-wrapper .right-side-wrapper .bottom {
+  margin-top: 10%;
+}
+
+.footer {
+  background-color: #323437;
+  width: 100%;
+  height: 15vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 75% auto;
+      grid-template-columns: auto 75% auto;
+  color: white;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+.footer .left-side-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 40px;
+}
+
+.footer .left-side-container a {
+  opacity: 0.7;
+}
+
+.footer .right-side-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .right-side-container p {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=contact.css.map */
