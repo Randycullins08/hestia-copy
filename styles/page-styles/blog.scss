@@ -192,6 +192,19 @@ p {
         color: #89229b;
       }
     }
+
+    @media (max-width: 768px) {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      margin: 0;
+      background-color: white;
+      color: black;
+      top: 0;
+      position: relative;
+      border-radius: 0;
+    }
   }
 
   .footer {
@@ -212,6 +225,16 @@ p {
       a {
         opacity: 0.7;
       }
+
+      @media (max-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+          margin-right: 10px;
+        }
+      }
     }
 
     .right-side-container {
@@ -222,6 +245,20 @@ p {
       p {
         opacity: 0.7;
       }
+
+      @media (max-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
     }
   }
 }
