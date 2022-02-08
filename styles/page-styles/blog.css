@@ -154,10 +154,11 @@ p {
   width: 80%;
   height: 30vh;
   font-size: 0.8em;
+  margin-top: 50px;
 }
 
 .main-content-container .main-content-wrapper .first-section-wrapper h4 {
-  margin-top: 50px;
+  margin: 0;
   color: #89229b;
 }
 
@@ -189,6 +190,12 @@ p {
   color: #00bcd4;
 }
 
+@media (min-width: 320px) and (max-width: 430px) {
+  .main-content-container .main-content-wrapper .second-section-wrapper {
+    margin-top: 3em;
+  }
+}
+
 .main-content-container .main-content-wrapper .third-section-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -211,6 +218,12 @@ p {
 .main-content-container .main-content-wrapper .third-section-wrapper h4 {
   margin: 0;
   color: #f44336;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .main-content-container .main-content-wrapper .third-section-wrapper {
+    margin-top: 3em;
+  }
 }
 
 .main-content-container .main-content-wrapper .fourth-section-wrapper {
@@ -237,6 +250,12 @@ p {
   color: #ff9800;
 }
 
+@media (min-width: 320px) and (max-width: 430px) {
+  .main-content-container .main-content-wrapper .fourth-section-wrapper {
+    margin-top: 3em;
+  }
+}
+
 .main-content-container .main-content-wrapper .fifth-section-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -259,6 +278,12 @@ p {
 .main-content-container .main-content-wrapper .fifth-section-wrapper h4 {
   margin: 0;
   color: #e91e63;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .main-content-container .main-content-wrapper .fifth-section-wrapper {
+    margin-top: 3em;
+  }
 }
 
 .main-content-container .main-content-wrapper .sixth-section-wrapper {
@@ -285,6 +310,12 @@ p {
   color: #4caf50;
 }
 
+@media (min-width: 320px) and (max-width: 430px) {
+  .main-content-container .main-content-wrapper .sixth-section-wrapper {
+    margin-top: 3em;
+  }
+}
+
 .main-content-container .main-content-wrapper .seventh-section-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,7 +340,13 @@ p {
   color: #89229b;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 430px) {
+  .main-content-container .main-content-wrapper .seventh-section-wrapper {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
   .main-content-container .main-content-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;

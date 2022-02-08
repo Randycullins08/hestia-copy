@@ -28,6 +28,12 @@ $button-color: #e91e63;
   font-size: 0.8em;
 }
 
+@mixin media-styles {
+  @media (min-width: 320px) and (max-width: 430px) {
+    margin-top: 3em;
+  }
+}
+
 :root {
   scroll-behavior: smooth;
 }
@@ -128,9 +134,10 @@ p {
 
     .first-section-wrapper {
       @include page-content-styles();
+      margin-top: 50px;
 
       h4 {
-        margin-top: 50px;
+        margin: 0;
         color: #89229b;
       }
 
@@ -146,6 +153,8 @@ p {
         margin: 0;
         color: #00bcd4;
       }
+
+      @include media-styles();
     }
 
     .third-section-wrapper {
@@ -155,6 +164,8 @@ p {
         margin: 0;
         color: #f44336;
       }
+
+      @include media-styles();
     }
 
     .fourth-section-wrapper {
@@ -164,6 +175,8 @@ p {
         margin: 0;
         color: #ff9800;
       }
+
+      @include media-styles();
     }
 
     .fifth-section-wrapper {
@@ -173,6 +186,8 @@ p {
         margin: 0;
         color: #e91e63;
       }
+
+      @include media-styles();
     }
 
     .sixth-section-wrapper {
@@ -182,6 +197,8 @@ p {
         margin: 0;
         color: #4caf50;
       }
+
+      @include media-styles();
     }
 
     .seventh-section-wrapper {
@@ -191,9 +208,13 @@ p {
         margin: 0;
         color: #89229b;
       }
+
+      @media (min-width: 320px) and (max-width: 430px) {
+        margin-top: 60px;
+      }
     }
 
-    @media (max-width: 768px) {
+    @media (min-width: 320px) and (max-width: 430px) {
       display: flex;
       justify-content: flex-start;
       align-items: center;
